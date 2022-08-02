@@ -1,11 +1,36 @@
-````
-You can also set custom ids or data
+# <p align="center"> Socket Rooms</p>
+
+<p align="center">_Communicate using Sockets, You can also use rooms._</p>
+
+## How to use
+
+Import the Socket Server
+
+```js
+import SocketServer from 'sockets-rooms';
+```
+
+Create a new Socket Server instance
+
 ```js
 const socketServer = new SocketServer();
-const socket = socketServer.connect("myCoolId", {
+```
+
+Create a new Socket instance
+
+```js
+const socketServer = new SocketServer();
+const socket = socketServer.connect();
+```
+
+You can also set custom ids or data
+
+```js
+const socketServer = new SocketServer();
+const socket = socketServer.connect('myCoolId', {
   mySuperCustomData: { a: 1, b: 2 },
 });
-````
+```
 
 Emit an event to a specific socket
 
