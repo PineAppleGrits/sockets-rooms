@@ -23,6 +23,7 @@ export default class SocketServer extends EventEmitter {
     ids: string | string[],
     event: string,
     exclude: string | string[] = '',
+    event: string,
     ...args: any
   ) {
     let idArrays = ids
