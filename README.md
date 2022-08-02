@@ -1,6 +1,6 @@
 # <p align="center"> Socket Rooms</p>
 
-<p align="center">_Communicate using Sockets, You can also use rooms._</p>
+<p align="center"><i>Communicate using Sockets, You can also use rooms.</i></p>
 
 ## How to use
 
