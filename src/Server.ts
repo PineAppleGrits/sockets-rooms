@@ -21,7 +21,6 @@ export default class SocketServer extends EventEmitter {
   }
   public emitTo(
     ids: string | string[],
-    event: string,
     exclude: string | string[] = '',
     event: string,
     ...args: any
