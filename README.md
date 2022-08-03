@@ -1,4 +1,4 @@
-# <p align="center"> Socket Rooms</p>
+<h1 align="center"> Socket Rooms</h1>
 
 <p align="center"><i>Communicate using Sockets, You can also use rooms.</i></p>
 
@@ -63,6 +63,6 @@ socket2.join('room1');
 socketServer.emitTo('room1', 'room2', 'event_from_room2', 'Hello from room 2');
 ```
 
-# TODO
+# TO DO
 
-[ ] Convert class Room to event emitter so it can work independentally.
+- [ ] Convert class Room to event emitter so it can work independentally.
